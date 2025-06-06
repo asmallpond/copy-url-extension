@@ -22,40 +22,15 @@ document.addEventListener('keydown', function(event) {
   // Function to copy text to clipboard
   async function copyToClipboard(text) {
     try {
-      // Try modern Clipboard API first
+      // Try Clipboard API
       if (navigator.clipboard && window.isSecureContext) {
         await navigator.clipboard.writeText(text);
         showNotification(text);
         return;
       }
     } catch (err) {
-      console.log('Modern clipboard failed, trying fallback method');
+      console.log('Failed to copy URL');
     }
-
-    // Fallback method for older browsers or insecure contexts
-    const textarea = document.createElement('textarea');
-    textarea.value = text;
-    textarea.style.position = 'fixed';
-    textarea.style.left = '-9999px';
-    textarea.style.opacity = '0';
-
-    document.body.appendChild(textarea);
-    textarea.focus();
-    textarea.select();
-    textarea.setSelectionRange(0, 99999);
-
-    try {
-      const successful = document.execCommand('copy');
-      if (successful) {
-        showNotification(text);
-      } else {
-        console.error('Failed to copy URL');
-      }
-    } catch (err) {
-      console.error('Failed to copy URL:', err);
-    }
-
-    document.body.removeChild(textarea);
   }
 
   // Show a brief notification
