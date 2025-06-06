@@ -5,14 +5,8 @@
     "description": "Copy current page URL with Ctrl+Shift+C",
 
     "permissions": [
-      "activeTab",
       "clipboardWrite"
     ],
-
-    "background": {
-      "scripts": ["background.js"],
-      "persistent": false
-    },
 
     "content_scripts": [
       {

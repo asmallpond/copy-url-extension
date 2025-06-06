@@ -12,13 +12,6 @@ document.addEventListener('keydown', function(event) {
     }
   }, true); // Use capture phase to intercept before other handlers
 
-  // Listen for messages from background script (keep for potential future use)
-  browser.runtime.onMessage.addListener((message, sender, sendResponse) => {
-    if (message.action === "copyUrl") {
-      copyToClipboard(message.url);
-    }
-  });
-
   // Function to copy text to clipboard
   async function copyToClipboard(text) {
     try {
