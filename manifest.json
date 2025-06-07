@@ -1,12 +1,8 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Copy URL with Ctrl+Shift+C",
     "version": "1.0",
     "description": "Copy current page URL with Ctrl+Shift+C",
-
-    "permissions": [
-      "clipboardWrite"
-    ],
 
     "content_scripts": [
       {
