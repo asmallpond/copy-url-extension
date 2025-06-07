@@ -4,6 +4,12 @@
     "version": "1.0",
     "description": "Copy current page URL with Ctrl+Shift+C",
 
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "copy-url-extension@edward-li.com"
+      }
+    },
+
     "icons": {
         "48": "icon.svg",
         "96": "icon.svg",
