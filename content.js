@@ -60,10 +60,4 @@ document.addEventListener('keydown', function(event) {
         }
       }, 300);
     }, 3000);
-
-    // Also notify background script
-    browser.runtime.sendMessage({
-      action: "urlCopied",
-      url: url
-    }).catch(() => {}); // Ignore errors if background script isn't listening
   }
