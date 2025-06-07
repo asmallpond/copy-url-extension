@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "URL Copier",
+    "name": "Copy URL with Ctrl+Shift+C",
     "version": "1.0",
     "description": "Copy current page URL with Ctrl+Shift+C",
 
