@@ -1,6 +1,6 @@
 # Copy URL with Ctrl+Shift+C
 
-A chrome and firefox extension that allows you to quickly copy the current page URL to your clipboard using the keyboard shortcut `Ctrl+Shift+C` (similar to Arc or Chrome).
+A Chrome and Firefox extension that allows you to quickly copy the current page URL to your clipboard using the keyboard shortcut `Ctrl+Shift+C` (similar to Arc or Zen).
 
 > **🤖 Ethical AI Notice:** This project was by in large part generated with AI.
 
