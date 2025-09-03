@@ -1,7 +1,7 @@
 // Listen for keyboard events to intercept Ctrl+Shift+C
 document.addEventListener('keydown', function(event) {
     // Check if Ctrl+Shift+C is pressed
-    if (event.ctrlKey && event.shiftKey && event.code === 'KeyC') {
+    if (event.metaKey && event.shiftKey && event.code === 'KeyC') {
       // Prevent the default behavior (opening DevTools)
       event.preventDefault();
       event.stopPropagation();
