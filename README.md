@@ -1,8 +1,7 @@
-# Copy URL with Ctrl+Shift+C
+# Copy a URL with
+this project lets you copy a URL with a more sensible shortcut: shift+command+c
 
-A Chrome and Firefox extension that allows you to quickly copy the current page URL to your clipboard using the keyboard shortcut `Ctrl+Shift+C` (similar to Arc or Zen).
-
-> **🤖 Ethical AI Notice:** This project was by in large part generated with AI.
+> **🤖 Ethical AI Notice:** This project was apparently generated with AI. (which sucks but im stealing the code)
 
 ## (Development) Installation
 
