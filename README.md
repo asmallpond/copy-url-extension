@@ -1,4 +1,4 @@
-# Copy a URL with
+# Copy a URL with shift+command+c
 this project lets you copy a URL with a more sensible shortcut: shift+command+c
 
 > **🤖 Ethical AI Notice:** This project was apparently generated with AI. (which sucks but im stealing the code)
